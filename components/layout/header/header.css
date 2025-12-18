@@ -1,0 +1,12 @@
+.site-header {
+    background-color: blue;
+    position: sticky;
+}
+
+.header-container {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
