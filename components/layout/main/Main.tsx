@@ -4,10 +4,10 @@ import './main.css'
 function MainSection() {
     return(
         <main className="main-section">
-            <section>
-
-            </section>
-            <h1>Hello! Welcome to the website of Brandon Potts!</h1>
+            <h1>Hello!</h1>
+            <h2>Welcome to the website of Brandon Potts!</h2>
+            <p>I&apos;m a software developer who enjoys to be build things</p>
+            <p>If you&apos;d like to contact me, feel free to <a href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website">contact me</a></p>
         </main>
     )
 }
