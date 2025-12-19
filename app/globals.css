@@ -19,19 +19,6 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.app-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: yellowgreen;
-}
-
 @layer base {
   h1 {
     @apply text-4xl font-extrabold leading-tight mb-4;
@@ -44,7 +31,6 @@ body {
   }
 
   p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    @apply text-xl leading-6;
   }
 }

@@ -1,10 +1,8 @@
 
 
-import styles from './footer.module.css'
-
 function FooterSection() {
     return (
-        <footer className={styles.footerSection}>
+        <footer className="text-center bg-cyan-400">
             <p>Website was designed and created by Brandon Potts</p>
         </footer>
     )

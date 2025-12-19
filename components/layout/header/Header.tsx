@@ -1,11 +1,9 @@
 import Image from "next/image";
 
-import styles from './header.module.css'
-
 function Header() {
     return (
-        <header className={styles.siteHeader}>
-            <div className={styles.headerContainer}>
+        <header className="bg-blue-500 sticky top-0">
+            <div className="mx-auto px-8 py-4 bg-green-500 flex justify-center">
                 <Image
                 src="/bp-logo.svg"
                 alt="BP logo"
