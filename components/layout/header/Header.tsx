@@ -13,7 +13,6 @@ function Header() {
                 height={20}
                 />
             </div>
-            <p>This is a header</p>
         </header>
     )
 }
