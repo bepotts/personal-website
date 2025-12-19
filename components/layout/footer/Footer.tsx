@@ -1,10 +1,10 @@
 
 
-import './footer.css'
+import styles from './footer.module.css'
 
 function FooterSection() {
     return (
-        <footer className="footer-section">
+        <footer className={styles.footerSection}>
             <p>This is a footer</p>
         </footer>
     )

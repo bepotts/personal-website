@@ -1,18 +1,18 @@
 
-.main-section {
+.mainSection {
     flex: 1;
     background-color: yellow;
     text-align: center;
     margin: 2rem;
 }
 
-.intro-section {
+.introSection {
     flex: 1;
     background-color: lightblue;
     padding: 2rem;
 }
 
-.info-section {
+.infoSection {
     background-color: lightgreen;
     padding: 2rem;
 }

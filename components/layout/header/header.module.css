@@ -1,9 +1,9 @@
-.site-header {
+.siteHeader {
     background-color: blue;
     position: sticky;
 }
 
-.header-container {
+.headerContainer {
     margin: 0 auto;
     padding: 1rem 2rem;
     background-color: green;
