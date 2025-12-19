@@ -16,3 +16,7 @@
     background-color: lightgreen;
     padding: 2rem;
 }
+
+.infoSection p {
+    padding-bottom: 1rem;
+}
