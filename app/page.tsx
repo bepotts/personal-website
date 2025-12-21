@@ -4,7 +4,7 @@ import FooterSection from '@/components/layout/footer/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-[yellowgreen]">
+    <div className="min-h-screen flex flex-col">
       <Header />
       <MainSection />
       <FooterSection />
