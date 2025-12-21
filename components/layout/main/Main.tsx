@@ -3,7 +3,7 @@ import Image from 'next/image';
 function MainSection() {
   return (
     <main className="flex-1 bg-yellow-400 text-center m-0" >
-      <div className="flex-1 bg-sky-300 p-8">
+      <div className="flex-1 bg-sky-300 p-4">
         <h1>Hello!</h1>
         <h2>Welcome to the website of Brandon Potts!</h2>
       </div>
