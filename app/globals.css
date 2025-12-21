@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -24,7 +24,7 @@
     @apply text-4xl font-extrabold leading-tight mb-4;
   }
   h2 {
-    @apply text-3xl font-bold leading-tight mb-4
+    @apply text-3xl font-bold leading-tight mb-4;
   }
   h3 {
     @apply text-2xl font-semibold leading-relaxed mb-4;
