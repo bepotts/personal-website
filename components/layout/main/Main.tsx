@@ -14,44 +14,46 @@ function MainSection() {
         </p>
       </div>
       <div>
-        <h3>Hit me up</h3>
+        <h3 className="pt-4">Hit me up</h3>
         <p>
-          If you&apos;d like to contact me, feel free to{' '}
-          <a href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website">
-            contact me
-          </a>
+          Where you can find me online:
         </p>
-        <div>
-          <a href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website">
+        <div className="flex justify-center items-center gap-4 pt-4">
+          <a className="cursor-pointer" href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website">
             <Image
               src="/icons/email-icon.svg"
               alt="email icon"
               width={50}
               height={20}
+              className="pointer-events-none"
             />
           </a>
           <a
             href="https://github.com/bepotts"
             target="_blank"
             rel="noopener noreferrer"
+            className="cursor-pointer"
           >
             <Image
               src="/icons/github-icon.svg"
               alt="github icon"
               width={50}
               height={20}
+              className="pointer-events-none"
             />
           </a>
           <a
             href="https://www.linkedin.com/in/brandon-potts-05587b366/"
             target="_blank"
             rel="noopener noreferrer"
+            className="cursor-pointer"
           >
             <Image
               src="/icons/linkedin-icon.svg"
               alt="linkedin icon"
               width={50}
               height={20}
+              className="pointer-events-none"
             />
           </a>
         </div>
