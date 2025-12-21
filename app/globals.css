@@ -33,7 +33,7 @@
   }
 
   p {
-    @apply text-l leading-6;
+    @apply text-lg leading-6;
   }
 }
 
