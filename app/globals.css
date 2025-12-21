@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+/* Mobile styles are default */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -21,16 +23,43 @@
 
 @layer base {
   h1 {
-    @apply text-4xl font-extrabold leading-tight mb-4;
+    @apply text-3xl font-extrabold leading-tight mb-4;
   }
   h2 {
-    @apply text-3xl font-bold leading-tight mb-4;
+    @apply text-2xl font-bold leading-tight mb-4;
   }
   h3 {
-    @apply text-2xl font-semibold leading-relaxed mb-4;
+    @apply text-xl font-semibold leading-relaxed mb-4;
   }
 
   p {
-    @apply text-xl leading-6;
+    @apply text-l leading-6;
   }
 }
+
+
+/* Small devices — min-width: 640px */
+@media (min-width: 640px) {
+
+}
+
+/* Medium devices — min-width: 768px */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices — min-width: 1024px */
+@media (min-width: 1024px) {
+
+}
+
+/* Extra large devices — min-width: 1280px */
+@media (min-width: 1280px) {
+
+}
+
+/* 2XL devices — min-width: 1536px */
+@media (min-width: 1536px) {
+  
+}
+
