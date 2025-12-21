@@ -2,10 +2,12 @@ import Image from 'next/image';
 
 function MainSection() {
   return (
-    <main className="flex-1 bg-yellow-400 text-center m-0" >
+    <main className="flex-1 bg-yellow-400 text-center m-0">
       <div className="flex-1 bg-sky-300 p-4">
-        <h1>Hello!</h1>
-        <h2>Welcome to the website of Brandon Potts!</h2>
+        <h1 className="text-fluid-2xl">Hello!</h1>
+        <h2 className="text-fluid-xl">
+          Welcome to the website of Brandon Potts!
+        </h2>
       </div>
 
       <div className="bg-green-200 p-4">
@@ -14,12 +16,13 @@ function MainSection() {
         </p>
       </div>
       <div>
-        <h3 className="pt-4">Hit me up</h3>
-        <p>
-          Where you can find me online:
-        </p>
+        <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
+        <p>Where you can find me online:</p>
         <div className="flex justify-center items-center gap-4 pt-4">
-          <a className="cursor-pointer" href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website">
+          <a
+            className="cursor-pointer"
+            href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website"
+          >
             <Image
               src="/icons/email-icon.svg"
               alt="email icon"
