@@ -35,18 +35,19 @@
   p {
     @apply text-lg leading-6;
   }
+
+  /* Medium devices — min-width: 768px */
+  /* @media (min-width: 768px) {
+
+  } */
 }
 
-
-/* Small devices — min-width: 640px */
-@media (min-width: 640px) {
-
+@layer utilities {
+  .text-fluid-base {
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  }
 }
 
-/* Medium devices — min-width: 768px */
-@media (min-width: 768px) {
-
-}
 
 /* Large devices — min-width: 1024px */
 @media (min-width: 1024px) {
