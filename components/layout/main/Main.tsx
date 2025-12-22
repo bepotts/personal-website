@@ -2,22 +2,43 @@ import Image from 'next/image';
 
 function MainSection() {
   return (
-    <main className="flex-1 bg-yellow-400 text-center m-0">
-      <div className="flex-1 bg-sky-300 p-4">
+    <main 
+      className="flex-1 text-center m-0"
+      style={{
+        backgroundColor: 'var(--main-bg)',
+        color: 'var(--text-primary)',
+      }}
+    >
+      <div 
+        className="flex-1 p-4"
+        style={{
+          backgroundColor: 'var(--section-bg)',
+        }}
+      >
         <h1 className="text-fluid-2xl">Hello!</h1>
         <h2 className="text-fluid-xl">
           Welcome to the website of Brandon Potts!
         </h2>
       </div>
 
-      <div className="bg-green-200 p-4">
-        <p className="p-4 m-4">
+      <div 
+        className="p-4"
+        style={{
+          backgroundColor: 'var(--section-accent)',
+        }}
+      >
+        <p className="p-4 m-4" style={{ color: 'var(--text-secondary)' }}>
           I&apos;m a software developer who enjoys to be build things
         </p>
       </div>
-      <div className="p-8 lg:p-12 xl:p-16">
+      <div 
+        className="p-8 lg:p-12 xl:p-16"
+        style={{
+          backgroundColor: 'var(--section-bg)',
+        }}
+      >
         <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
-        <p>Where you can find me online:</p>
+        <p style={{ color: 'var(--text-secondary)' }}>Where you can find me online:</p>
         <div className="flex justify-center items-center gap-4 pt-6">
           <a
             className="cursor-pointer"

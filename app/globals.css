@@ -5,6 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Modern color palette */
+  --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --header-bg-solid: #667eea;
+  --main-bg: #f8fafc;
+  --section-bg: #ffffff;
+  --section-accent: #f1f5f9;
+  --footer-bg: #1e293b;
+  --footer-text: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent-color: #667eea;
 }
 
 @theme inline {
@@ -18,6 +29,16 @@
   :root {
     --background: #0a0a0a;
     --foreground: #060606;
+    --header-bg: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+    --header-bg-solid: #4c1d95;
+    --main-bg: #0f172a;
+    --section-bg: #1e293b;
+    --section-accent: #334155;
+    --footer-bg: #020617;
+    --footer-text: #cbd5e1;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --accent-color: #818cf8;
   }
 }
 
