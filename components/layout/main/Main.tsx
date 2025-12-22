@@ -11,14 +11,14 @@ function MainSection() {
       </div>
 
       <div className="bg-green-200 p-4">
-        <p className="p-4">
+        <p className="p-4 m-4">
           I&apos;m a software developer who enjoys to be build things
         </p>
       </div>
-      <div>
+      <div className="p-8">
         <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
         <p>Where you can find me online:</p>
-        <div className="flex justify-center items-center gap-4 pt-4">
+        <div className="flex justify-center items-center gap-4 pt-6">
           <a
             className="cursor-pointer"
             href="mailto:bepotts47@gmail.com?subject=Contact%20from%20your%20website"
