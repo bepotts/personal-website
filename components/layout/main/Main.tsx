@@ -15,7 +15,7 @@ function MainSection() {
           I&apos;m a software developer who enjoys to be build things
         </p>
       </div>
-      <div className="p-8">
+      <div className="p-8 lg:p-12 xl:p-16">
         <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
         <p>Where you can find me online:</p>
         <div className="flex justify-center items-center gap-4 pt-6">
