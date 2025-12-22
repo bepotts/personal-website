@@ -82,6 +82,11 @@
     /* For h1/hero headings */
     font-size: clamp(2.5rem, 2.2rem + 1.8vw, 5rem);
   }
+
+  /* Responsive image utility */
+  .responsive-image {
+    width: clamp(55px, 10vw, 120px);
+  }
 }
 
 /* Large devices — min-width: 1024px */

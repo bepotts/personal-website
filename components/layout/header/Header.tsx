@@ -3,7 +3,7 @@ import Image from 'next/image';
 function Header() {
   return (
     <header className="top-0">
-      <div 
+      <div
         className="mx-auto py-4 flex justify-center"
         style={{
           background: 'var(--header-bg)',

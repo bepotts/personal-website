@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Personal Website',
+  title: 'Brandon Potts',
   description: 'Personal Website for Brandon Potts',
   robots: {
     index: false,
-    follow: false
-  }
+    follow: false,
+  },
 };
 
 export default function RootLayout({

@@ -1,15 +1,18 @@
 import Image from 'next/image';
 
 function MainSection() {
+  const iconWidth: number = 55;
+  const iconHeight: number = 20;
+
   return (
-    <main 
+    <main
       className="flex-1 text-center m-0"
       style={{
         backgroundColor: 'var(--main-bg)',
         color: 'var(--text-primary)',
       }}
     >
-      <div 
+      <div
         className="flex-1 p-4"
         style={{
           backgroundColor: 'var(--section-bg)',
@@ -21,7 +24,7 @@ function MainSection() {
         </h2>
       </div>
 
-      <div 
+      <div
         className="p-4"
         style={{
           backgroundColor: 'var(--section-accent)',
@@ -31,14 +34,16 @@ function MainSection() {
           I&apos;m a software developer who enjoys to be build things
         </p>
       </div>
-      <div 
+      <div
         className="p-8 lg:p-12 xl:p-16"
         style={{
           backgroundColor: 'var(--section-bg)',
         }}
       >
         <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
-        <p style={{ color: 'var(--text-secondary)' }}>Where you can find me online:</p>
+        <p style={{ color: 'var(--text-secondary)' }}>
+          Where you can find me online:
+        </p>
         <div className="flex justify-center items-center gap-4 pt-6">
           <a
             className="cursor-pointer"
@@ -47,9 +52,9 @@ function MainSection() {
             <Image
               src="/icons/email-icon.svg"
               alt="email icon"
-              width={50}
-              height={20}
-              className="pointer-events-none"
+              width={iconWidth}
+              height={iconHeight}
+              className="pointer-events-none responsive-image"
             />
           </a>
           <a
@@ -61,9 +66,9 @@ function MainSection() {
             <Image
               src="/icons/github-icon.svg"
               alt="github icon"
-              width={50}
-              height={20}
-              className="pointer-events-none"
+              width={iconWidth}
+              height={iconHeight}
+              className="pointer-events-none responsive-image"
             />
           </a>
           <a
@@ -75,9 +80,9 @@ function MainSection() {
             <Image
               src="/icons/linkedin-icon.svg"
               alt="linkedin icon"
-              width={50}
-              height={20}
-              className="pointer-events-none"
+              width={iconWidth}
+              height={iconHeight}
+              className="pointer-events-none responsive-image"
             />
           </a>
         </div>

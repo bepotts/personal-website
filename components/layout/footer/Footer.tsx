@@ -1,7 +1,7 @@
 function FooterSection() {
   return (
-    <footer 
-      className="text-center p-2 md:p-8"
+    <footer
+      className="text-center p-3 md:p-8"
       style={{
         backgroundColor: 'var(--footer-bg)',
         color: 'var(--footer-text)',
