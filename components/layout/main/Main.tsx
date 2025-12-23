@@ -40,7 +40,7 @@ function MainSection() {
           backgroundColor: 'var(--section-bg)',
         }}
       >
-        <h3 className="pt-4 text-fluid-lg">Hit me up</h3>
+        <h3 className="pt-4 text-fluid-xl">Hit me up</h3>
         <p style={{ color: 'var(--text-secondary)' }}>
           Where you can find me online:
         </p>
