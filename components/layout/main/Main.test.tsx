@@ -17,4 +17,3 @@ describe('MainSection', () => {
     expect(main).toBeInTheDocument();
   });
 });
-

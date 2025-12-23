@@ -12,7 +12,13 @@ function Header() {
           background: 'var(--header-bg)',
         }}
       >
-        <Image src="/bp-logo.svg" alt="BP logo" className="responsive-image" width={logoWidth} height={logoHeight} />
+        <Image
+          src="/bp-logo.svg"
+          alt="BP logo"
+          className="responsive-image"
+          width={logoWidth}
+          height={logoHeight}
+        />
       </div>
     </header>
   );

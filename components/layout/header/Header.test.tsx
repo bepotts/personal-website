@@ -17,4 +17,3 @@ describe('Header', () => {
     expect(header).toBeInTheDocument();
   });
 });
-

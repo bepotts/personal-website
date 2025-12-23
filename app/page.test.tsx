@@ -20,10 +20,9 @@ jest.mock('@/components/layout/footer/Footer', () => ({
 describe('Home Page', () => {
   it('renders all layout components', () => {
     render(<Home />);
-    
+
     expect(screen.getByTestId('header')).toBeInTheDocument();
     expect(screen.getByTestId('main')).toBeInTheDocument();
     expect(screen.getByTestId('footer')).toBeInTheDocument();
   });
 });
-

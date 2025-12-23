@@ -43,6 +43,11 @@
 }
 
 @layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   h1 {
     @apply text-3xl font-extrabold leading-tight mb-4;
   }
