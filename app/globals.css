@@ -29,16 +29,16 @@
   :root {
     --background: #0a0a0a;
     --foreground: #060606;
-    --header-bg: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
-    --header-bg-solid: #4c1d95;
-    --main-bg: #0f172a;
-    --section-bg: #1e293b;
-    --section-accent: #334155;
-    --footer-bg: #020617;
-    --footer-text: #cbd5e1;
+    --header-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --header-bg-solid: #6366f1;
+    --main-bg: #1e293b;
+    --section-bg: #334155;
+    --section-accent: #475569;
+    --footer-bg: #1e293b;
+    --footer-text: #e2e8f0;
     --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
-    --accent-color: #818cf8;
+    --text-secondary: #cbd5e1;
+    --accent-color: #a78bfa;
   }
 }
 
@@ -86,6 +86,11 @@
   /* Responsive image utility */
   .responsive-image {
     width: clamp(55px, 10vw, 120px);
+  }
+
+  /* Make images white */
+  .image-white {
+    filter: brightness(0) invert(1);
   }
 }
 

@@ -54,7 +54,7 @@ function MainSection() {
               alt="email icon"
               width={iconWidth}
               height={iconHeight}
-              className="pointer-events-none responsive-image"
+              className="pointer-events-none responsive-image image-white"
             />
           </a>
           <a
@@ -68,7 +68,7 @@ function MainSection() {
               alt="github icon"
               width={iconWidth}
               height={iconHeight}
-              className="pointer-events-none responsive-image"
+              className="pointer-events-none responsive-image image-white"
             />
           </a>
           <a
@@ -82,7 +82,7 @@ function MainSection() {
               alt="linkedin icon"
               width={iconWidth}
               height={iconHeight}
-              className="pointer-events-none responsive-image"
+              className="pointer-events-none responsive-image image-white"
             />
           </a>
         </div>
