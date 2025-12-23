@@ -1,3 +1,3 @@
-# Personal Cursor app
+# My Personal Website
 
-This is an attempt to learn more about CSS
+Personal Website for myself, Brandon Potts
