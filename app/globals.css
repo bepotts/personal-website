@@ -88,9 +88,15 @@
     width: clamp(55px, 10vw, 120px);
   }
 
-  /* Make images white */
+  /* Make images white in dark mode only */
   .image-white {
-    filter: brightness(0) invert(1);
+    filter: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .image-white {
+      filter: brightness(0) invert(1);
+    }
   }
 }
 
