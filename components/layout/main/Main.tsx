@@ -31,7 +31,7 @@ function MainSection() {
         }}
       >
         <p className="p-4 m-4" style={{ color: 'var(--text-secondary)' }}>
-          I&apos;m a software developer who enjoys to be build things
+          I&apos;m a software developer who enjoys to build things
         </p>
       </div>
       <div
